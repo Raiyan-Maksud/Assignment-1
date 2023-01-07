@@ -191,7 +191,7 @@
 /* ----------------------------------Mindset (5th) Section------------------------------------- */
 
 .mindset{
-    background-image: url('images/watch.png'),url('/images/gradient1.png');
+    background-image: url('images/watch.png'),url('images/gradient1.png');
     height: 300px;
     width: 1140px;
     background-repeat: no-repeat;
