@@ -22,8 +22,9 @@
 .paragraph-text{
     color: white;
     text-align: right;
-    margin: 50px 150px 0px 0px;
+    margin: 30px 150px 0px 0px;
     font-size: 15px;
+    line-height: 25px;
 }
 .primary-btn{
     border: none;
@@ -34,5 +35,159 @@
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    margin: 70px 0px 0px 1210px;
+    margin: 50px 0px 0px 1210px;
+}
+
+/*--------------------------------failure section---------------------------------- */
+
+.failure-section{
+    display: flex;
+    
+}
+.image-left{
+    padding-top: 80px ;
+    padding-right: 100px ;
+    padding-left: 200px;
+}
+.texts-right{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 250px;
+    text-align: left;
+}
+.failure-heading{
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+.failure-paragraph{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+.failure-lists{
+    font-size: 15px;
+    line-height: 35px;
+    text-align: left;
+}
+
+/* --------------------plan section------------------------ */
+
+.plan-heading{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+.plan-section{
+    display: flex;
+    margin-top: 40px;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+.web-dev-section{
+    margin-left: 250px;
+    padding-right: 50px;
+    text-align: center;
+}
+.js-section{
+    padding-right: 50px;
+    padding-left: 100px;
+    text-align: center;
+}
+.smoking-section{
+    padding-right: 50px;
+    padding-left: 100px;
+    text-align: center;
+}
+.ecommerce-section{
+    padding-left: 100px;
+    text-align: center;
+}
+
+
+/* -------------------Mindset Section---------------- */
+
+.mindset{
+    background-image: url('images/watch.png');
+    
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.secondary-btn{
+    border: none;
+    color: #005FAC;
+    border-radius: 5px;
+    width: 160px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0px 0px 70px;
+}
+.mindset-heading{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding-top: 60px;
+    padding-left: 70px;
+}
+
+/* footer section */
+
+.footer-section{
+    background: black;
+    height: auto;
+    width: 100vw;
+    display: flex;
+}
+.footer-future{
+    padding-left: 300px;
+}
+.heading1{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+.para{
+    color: white;
+    padding-bottom: 25px;
+    line-height: 25px;
+}
+.images{
+    letter-spacing: 15px;
+    padding-bottom: 80px;
+}
+.subscribe{
+    color: white;
+    padding-left: 250px;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+.heading2{
+    color: white;
+    margin-bottom: 20px;
+}
+.input-text{
+    border-radius: 5px;
+    background-color: black;
+    border-width: 1px;
+    border-color: white;
+    padding: 10px 30px 10px 10px;
+    margin-bottom: 20px;
+}
+.btn{
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    color: white;
+    background-color: #005FAC;
 }
