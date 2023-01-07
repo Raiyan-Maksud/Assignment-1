@@ -1,10 +1,11 @@
 *{
     margin: 0;
+    overflow-x: hidden;
 }
 
-/*-------------- Header Section ---------------------*/
+/*------------------------------ Banner (1st) Section ----------------------------------*/
 
-.header{
+.banner{
     height: 110vh;
     background-image: url('images/banner/banner3.png');
     background-repeat: no-repeat;
@@ -29,7 +30,7 @@
 .primary-btn{
     border: none;
     color: #005FAC;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 160px;
     height: 65px;
     font-size: 20px;
@@ -38,11 +39,14 @@
     margin: 50px 0px 0px 1210px;
 }
 
-/*--------------------------------failure section---------------------------------- */
+/*--------------------------------Failure (2nd) section---------------------------------- */
 
+.failure-lists i{
+    color: lightgreen;
+    padding-left: 20px;
+}
 .failure-section{
-    display: flex;
-    
+    display: flex;   
 }
 .image-left{
     padding-top: 80px ;
@@ -73,7 +77,7 @@
     text-align: left;
 }
 
-/* --------------------plan section------------------------ */
+/* -------------------------------Plan (3rd) section-------------------------------- */
 
 .plan-heading{
     font-family: sans-serif;
@@ -107,20 +111,22 @@
 }
 
 
-/* -------------------Mindset Section---------------- */
+/* ----------------------------------Mindset (4th) Section------------------------------------- */
 
 .mindset{
-    background-image: url('images/watch.png');
-    
-    height: 100vh;
+    background-image: url('images/watch.png'),url('/images/gradient1.png');
+    height: 300px;
+    width: 1140px;
     background-repeat: no-repeat;
+    background-blend-mode: overlay;
     margin-left: 200px;
     margin-top: 150px;
+    margin-bottom: 150px;    
 }
 .secondary-btn{
     border: none;
     color: #005FAC;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 160px;
     height: 65px;
     font-size: 20px;
@@ -137,7 +143,7 @@
     padding-left: 70px;
 }
 
-/* footer section */
+/* --------------------------------------Footer (5th) section---------------------------------- */
 
 .footer-section{
     background: black;
@@ -171,7 +177,6 @@
     font-size: 25px;
     padding-top: 100px;
 }
-
 .heading2{
     color: white;
     margin-bottom: 20px;
@@ -179,15 +184,20 @@
 .input-text{
     border-radius: 5px;
     background-color: black;
-    border-width: 1px;
+    border-width: 2px;
     border-color: white;
     padding: 10px 30px 10px 10px;
     margin-bottom: 20px;
+    color: white;
 }
 .btn{
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
     padding: 12px 20px 12px 20px;
     color: white;
     background-color: #005FAC;
 }
+
+
+
+/* -------------------------------The End-------------------------- */
